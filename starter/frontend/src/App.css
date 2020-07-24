@@ -1,0 +1,101 @@
+.App {
+  text-align: center;
+  height: 100%;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+body {
+  background-color: #d7e8f1;
+}
+
+.header {
+  background: #0098f2;
+  color: white;
+  padding: 10px 30px;
+  text-align: left;
+}
+.container {
+  max-width: 1000px;
+  margin: auto;
+  margin-top: 50px;
+}
+.chat-container {
+  background: white;
+}
+
+.message-list {
+  height: 50vh;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
+.message {
+  margin-bottom: 10px;
+  width: fit-content;
+  padding: 10px;
+  text-align: left;
+}
+.message-incomming {
+  align-self: flex-start;
+  background: #5e7285;
+  color: white;
+  border-radius: 0px 10px 10px 10px;
+}
+.message-outgoing {
+  align-self: flex-end;
+  border-radius: 10px 0px 10px 10px;
+  background: #059df3;
+  color: white;
+}
+p.name {
+  margin-bottom: 5px;
+  font-size: 0.9rem;
+  font-weight: bold;
+  opacity: 0.8;
+}
+.login {
+  width: max-content;
+  background: #059af086;
+  margin: auto;
+  padding: 30px;
+  margin-top: 30vh;
+  color: white;
+}
+.login-form {
+  min-height: 100px;
+  color: white;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+}
+.login-form input {
+  padding: 5px;
+  margin-bottom: 8px;
+}
+
+.form-container {
+  padding: 20px 30px;
+  background-color: #0098f2;
+}
+form {
+  display: flex;
+}
+
+form button {
+  padding: 5px;
+}
+form #message {
+  padding: 5px;
+  flex: 1;
+}

@@ -1,0 +1,22 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-graphql": "^0.11.0",
+    "graphql": "^15.3.0",
+    "graphql-subscriptions": "^1.1.0",
+    "graphql-tag": "^2.10.4",
+    "graphql-tools": "^6.0.12",
+    "json-server": "^0.16.1",
+    "subscriptions-transport-ws": "^0.9.17"
+  }
+}
