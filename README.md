@@ -12,6 +12,7 @@ In this tutorial we will learn how to use subscriptions in express-graphql and m
 ### Run Server
 ```javascript
 cd ./server
+npm install
 json-server --watch db.json --port 3003
 ```
 ```javascript
